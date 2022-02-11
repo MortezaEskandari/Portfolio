@@ -341,7 +341,7 @@ body{
 
 .projects_section .projects_container{
     text-align: center;
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-top: 100px;
     padding-bottom: 300px;
@@ -373,13 +373,14 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-top: 5%;
-    /* border: 2px solid yellow; */
+    /* width: 100%; */
+    border: 2px solid yellow;
 }
 
 .projects_section .projects_container .projects_content .project{
     flex-basis: 31%;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(54, 54, 54);
     border-radius: 10px;
     margin-bottom: 5%;
@@ -397,6 +398,14 @@ body{
     color: crimson;
 }
 
+.projects_section .projects_container .projects_content .project .project_sub_title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: crimson;
+}
+
 .projects_section .projects_container .projects_content .project:hover{
     box-shadow: 0 0 20px 0px rgba(255, 255, 255, 0.2);
     transform: scale(1.05);
@@ -404,7 +413,8 @@ body{
     cursor: pointer;
 }
 
-.projects_section .projects_container .projects_content .project:hover .project_title{
+.projects_section .projects_container .projects_content .project:hover .project_title,
+.projects_section .projects_container .projects_content .project:hover .project_sub_title{
     color: white;
 }
 
