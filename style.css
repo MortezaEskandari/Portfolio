@@ -253,10 +253,18 @@ body{
     /* border: 2px solid red; */
 }
 
+.about_section .about_content .about_right .about_button_container{
+    display: flex;
+    flex-direction: column;
+    /* width: auto; */
+    /* border: 2px solid blue; */
+}
+
 .about_section .about_content .about_right .about_button button{
+    width: 60%;
     color: white;
     padding: 10px 30px;
-    margin-top: 20px;
+    margin-top: 15px;
     background-color: crimson;
     display: inline;
     border-style: none;
@@ -534,27 +542,31 @@ body{
 }
 
 .skills_section .skills_content .right .bars .html::before{
-    width: 50%;
+    width: 60%;
 }
 
 .skills_section .skills_content .right .bars .css::before{
-    width: 50%;
+    width: 60%;
 }
 
 .skills_section .skills_content .right .bars .java::before{
-    width: 80%;
+    width: 90%;
 }
 
 .skills_section .skills_content .right .bars .c::before{
-    width: 70%;
+    width: 80%;
 }
 
 .skills_section .skills_content .right .bars .cpp::before{
-    width: 60%;
+    width: 50%;
 }
 
 .skills_section .skills_content .right .bars .python::before{
-    width: 60%;
+    width: 50%;
+}
+
+.skills_section .skills_content .right .bars .javascript::before{
+    width: 30%;
 }
 
 @media(max-width: 1000px) {
