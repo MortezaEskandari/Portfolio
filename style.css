@@ -811,6 +811,12 @@ body{
     }
 }
 
+@media (max-width: 420px){
+    .contact_section .contact_title_section h1::before{
+        width: 220px;
+    }
+}
+
 footer{
     /* background: rgb(235, 235, 235); */
     background: black;
