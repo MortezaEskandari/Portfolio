@@ -837,12 +837,13 @@ body{
 
 footer{
     /* background: rgb(235, 235, 235); */
-    background: black;
-    padding: 20px 23px;
+    background: rgb(15, 15, 15);
+    padding: 30px 23px;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     font-size: 18px;
     color: white;
+    text-align: center;
 }
 
 footer span a{
